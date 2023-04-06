@@ -5,6 +5,18 @@
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
+  @media (max-width: 768px) {
+    margin-right: 0%;
+  }
+  @media (max-width: 498px) {
+    margin-right: 0%;
+    width: 99%;
+  }
+  @media (max-width: 375px) {
+    margin-right: 0%;
+    width: 100%;
+  }
+
   .Header__logo {
     display: flex;
     flex-direction: row;
@@ -43,6 +55,10 @@
     gap: 25px;
     .search {
       width: 370px;
+      @media (max-width: 498px) {
+        margin-right: 0%;
+        width: 80%;
+      }
     }
     button {
       all: unset;
@@ -62,6 +78,10 @@
         border: 1px solid #ccc;
         border-radius: 4px;
         width: 300px;
+        @media (max-width: 498px) {
+          margin-right: 0%;
+          width: 50%;
+        }
         padding: 10px;
         font-family: sans-serif, "Cairo";
         font-weight: bold;
@@ -84,6 +104,10 @@
       margin-left: 10px;
       &.settingSvg {
         font-size: 40px;
+        @media (max-width: 498px) {
+          margin-right: 0%;
+          font-size: 30px;
+        }
       }
     }
   }

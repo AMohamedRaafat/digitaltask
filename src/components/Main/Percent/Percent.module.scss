@@ -14,7 +14,17 @@
       border: 1px solid #ccc;
       border-radius: 40px;
       margin: 15px 0;
+
       @media (max-width: 768px) {
+        margin-right: 0%;
+        width: 100%;
+      }
+      @media (max-width: 498px) {
+        margin-right: 0%;
+        width: 100%;
+      }
+      @media (max-width: 375px) {
+        margin-right: 0%;
         width: 100%;
       }
       h3 {

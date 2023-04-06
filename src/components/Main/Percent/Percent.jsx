@@ -5,13 +5,15 @@ const Percent = () => {
   const manStopBorn = useRef();
   const womanStopDead = useRef();
   const manStopDead = useRef();
+  const womanPer = "88%";
+  const manPer = "12%";
+  const womanPerDead = "76%";
+  const manPerDead = "38%";
   useEffect(() => {
-    const womanPer = "88%";
-    const manPer = "12%";
     womanStopBorn.current.setAttribute("offset", womanPer);
     manStopBorn.current.setAttribute("offset", manPer);
-    womanStopDead.current.setAttribute("offset", womanPer);
-    manStopDead.current.setAttribute("offset", manPer);
+    womanStopDead.current.setAttribute("offset", womanPerDead);
+    manStopDead.current.setAttribute("offset", manPerDead);
   });
   return (
     <div className={styles.percent}>
@@ -55,7 +57,7 @@ const Percent = () => {
                   />
                 </g>
               </svg>
-              <h3>88%</h3>
+              <h3>{womanPer}%</h3>
             </div>
             <div className={styles.man}>
               <span>ذكور</span>
@@ -95,7 +97,7 @@ const Percent = () => {
                 </g>
               </svg>
 
-              <h3>12%</h3>
+              <h3>{manPer}</h3>
             </div>
           </div>
         </div>
@@ -138,7 +140,7 @@ const Percent = () => {
                   />
                 </g>
               </svg>
-              <h3>88%</h3>
+              <h3>{womanPerDead}</h3>
             </div>
             <div className={styles.man}>
               <span>ذكور</span>
@@ -178,7 +180,7 @@ const Percent = () => {
                 </g>
               </svg>
 
-              <h3>12%</h3>
+              <h3>{manPerDead}</h3>
             </div>
           </div>
         </div>

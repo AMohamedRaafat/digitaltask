@@ -18,6 +18,22 @@
     flex-direction: column;
   }
 }
+@media (max-width: 498px) {
+  .status .row {
+    gap: 0%;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+}
+@media (max-width: 375px) {
+  .status .row {
+    gap: 0%;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+}
 .status .row .parent {
   background-color: #fff;
   padding: 0;

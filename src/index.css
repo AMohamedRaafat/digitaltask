@@ -23,4 +23,28 @@ code {
 .showbar {
   right: 0 !important;
   z-index: 999;
+  
+}
+@media (max-width: 768px) {
+ .showbar {
+  position: fixed;
+  top: 10px;
+  height: 99%;
+}
+}
+@media (max-width: 489px) {
+  .showbar {
+   right: -35px !important;
+   position: fixed;
+   top: 10px;
+   height: 99%;
+  }
+}
+@media (max-width: 375px) {
+  .showbar {
+   right: -40px !important;
+   position: fixed;
+   top: 50px;
+   height: 99%;
+  }
 }

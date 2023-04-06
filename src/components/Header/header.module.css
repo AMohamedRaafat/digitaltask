@@ -6,6 +6,23 @@
   align-items: center;
   background-color: #fff;
 }
+@media (max-width: 768px) {
+  .Header {
+    margin-right: 0%;
+  }
+}
+@media (max-width: 498px) {
+  .Header {
+    margin-right: 0%;
+    width: 99%;
+  }
+}
+@media (max-width: 375px) {
+  .Header {
+    margin-right: 0%;
+    width: 100%;
+  }
+}
 .Header .Header__logo {
   display: flex;
   flex-direction: row;
@@ -45,6 +62,12 @@
 .Header .Header__setting .search {
   width: 370px;
 }
+@media (max-width: 498px) {
+  .Header .Header__setting .search {
+    margin-right: 0%;
+    width: 80%;
+  }
+}
 .Header .Header__setting button {
   all: unset;
   cursor: pointer;
@@ -71,6 +94,12 @@
   letter-spacing: 1px;
   text-align: right;
 }
+@media (max-width: 498px) {
+  .Header .Header__setting form input {
+    margin-right: 0%;
+    width: 50%;
+  }
+}
 .Header .Header__setting form button {
   cursor: pointer;
   padding: 5px 20px;
@@ -86,4 +115,10 @@
 }
 .Header .Header__setting svg.settingSvg {
   font-size: 40px;
+}
+@media (max-width: 498px) {
+  .Header .Header__setting svg.settingSvg {
+    margin-right: 0%;
+    font-size: 30px;
+  }
 }/*# sourceMappingURL=header.module.css.map */
