@@ -1,0 +1,79 @@
+.status {
+  width: 100%;
+  margin: 40px 0;
+}
+.status .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: auto;
+  gap: 5%;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .status .row {
+    gap: 0%;
+    width: 95%;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+}
+.status .row .parent {
+  background-color: #fff;
+  padding: 0;
+  width: 28.5714285714%;
+  border-radius: 30px;
+  border: 1px solid #eee;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .status .row .parent {
+    width: 100%;
+    margin: 15px auto;
+  }
+}
+.status .row .parent .icon {
+  width: 28%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.status .row .parent .icon div {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 10px solid #32bea6;
+}
+.status .row .parent .icon div.dead {
+  background-color: #7d7d94;
+  border: none;
+  width: 43px;
+  height: 43px;
+}
+.status .row .parent .icon svg {
+  color: orange;
+  font-size: 50px;
+}
+.status .row .parent .text {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  font-family: sans-serif, "Cairo";
+  letter-spacing: 1px;
+}
+.status .row .parent .text h2 {
+  font-size: 25px;
+  margin: 10px 5px;
+  color: #333;
+  font-family: sans-serif, "Cairo";
+}
+.status .row .parent .text h4 {
+  margin: 10px 5px;
+  letter-spacing: 1px;
+  color: #444;
+}/*# sourceMappingURL=Status.module.css.map */

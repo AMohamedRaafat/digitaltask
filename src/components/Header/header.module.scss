@@ -1,0 +1,90 @@
+.Header {
+  padding: 10px 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  .Header__logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px 0;
+    .logo {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 20px;
+      justify-content: center;
+      img {
+        width: 100px;
+      }
+      .divider {
+        width: 3px;
+        background-color: #ccc;
+        border-radius: 10px;
+        height: 100px;
+      }
+    }
+
+    .title {
+      color: #333;
+      font-family: sans-serif, "Cairo";
+      letter-spacing: 1px;
+    }
+  }
+  .Header__setting {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    .search {
+      width: 370px;
+    }
+    button {
+      all: unset;
+      cursor: pointer;
+      color: #818181;
+      letter-spacing: 1px;
+      font-family: sans-serif, "Cairo";
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+    }
+    form {
+      display: flex;
+      gap: 20px;
+      input {
+        all: unset;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 300px;
+        padding: 10px;
+        font-family: sans-serif, "Cairo";
+        font-weight: bold;
+        font-size: 14px;
+        letter-spacing: 1px;
+        text-align: right;
+      }
+      button {
+        cursor: pointer;
+        padding: 5px 20px;
+        border-radius: 5px;
+        background-color: #333;
+        color: white;
+        text-align: center !important;
+      }
+    }
+    svg {
+      font-size: 25px;
+      font-weight: bold;
+      margin-left: 10px;
+      &.settingSvg {
+        font-size: 40px;
+      }
+    }
+  }
+}

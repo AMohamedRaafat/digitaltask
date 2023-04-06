@@ -1,0 +1,76 @@
+.tabmenu {
+  cursor: pointer;
+  margin-left: 50px;
+  padding: 0 15px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  overflow: hidden;
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+}
+@media (min-width: 768px) {
+  .tabmenu {
+    display: none;
+  }
+}
+
+.tabs {
+  margin-right: 50px;
+  padding: 0;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  overflow: hidden;
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+}
+@media (max-width: 768px) {
+  .tabs {
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+}
+.tabs div {
+  width: 60px;
+  margin-left: 10px;
+  padding: 0px 6px;
+  cursor: pointer;
+  height: 100%;
+  font-family: sans-serif, "Cairo";
+  font-weight: bold;
+}
+.tabs div p {
+  font-size: 13px;
+  margin: 0;
+  height: 100%;
+  padding: 8px 0;
+  color: #333;
+  position: relative;
+}
+.tabs div p::before {
+  position: absolute;
+  content: "";
+  top: 15px;
+  right: 5px;
+  background-color: #333;
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+}
+.tabs div p.none::before {
+  background-color: rgb(253, 182, 51);
+  right: -5px;
+}
+.tabs div p.verfiy::before {
+  background-color: rgb(43, 255, 0);
+  right: 2px;
+}/*# sourceMappingURL=DatePick.module.css.map */
