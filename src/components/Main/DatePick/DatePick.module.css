@@ -13,11 +13,16 @@
   border-radius: 12px;
   border: 1px solid #e0e0e0;
 }
+<<<<<<< HEAD
 @media (min-width: 1200px) {
+=======
+@media (min-width: 768px) {
+>>>>>>> bde3f393739ebfabef23ae5ddd272587ea8d00a8
   .tabmenu {
     display: none;
   }
 }
+<<<<<<< HEAD
 @media (max-width: 400px) {
   .tabmenu {
     margin-bottom: 2%;
@@ -25,6 +30,9 @@
   }
 }
 @media (max-width: 515px) {
+=======
+@media (max-width: 375px) {
+>>>>>>> bde3f393739ebfabef23ae5ddd272587ea8d00a8
   .tabmenu {
     margin-bottom: 2%;
     padding: 15px;

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .tabmenu {
   cursor: pointer;
   margin-left: 50px;
@@ -82,3 +83,85 @@
     }
   }
 }
+=======
+.tabmenu {
+  cursor: pointer;
+  margin-left: 50px;
+  padding: 0 15px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: fit-content;
+  overflow: hidden;
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  @media (min-width: 768px) {
+    display: none;
+  }
+  @media (max-width: 375px) {
+    margin-bottom: 2%;
+    padding: 15px;
+  }
+}
+.tabs {
+  margin-right: 50px;
+  padding: 0;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: fit-content;
+  overflow: hidden;
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  @media (max-width: 768px) {
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  @media (max-width: 375px) {
+    margin: 15px 0;
+  }
+  div {
+    width: 60px;
+    margin-left: 10px;
+    padding: 0px 6px;
+    cursor: pointer;
+    height: 100%;
+    font-family: sans-serif, "Cairo";
+    font-weight: bold;
+    p {
+      font-size: 13px;
+      margin: 0;
+      height: 100%;
+      padding: 8px 0;
+      color: #333;
+      position: relative;
+      &::before {
+        position: absolute;
+        content: "";
+        top: 15px;
+        right: 5px;
+        background-color: #333;
+        height: 6px;
+        width: 6px;
+        border-radius: 50%;
+      }
+      &.none {
+        &::before {
+          background-color: rgb(253, 182, 51);
+          right: -5px;
+        }
+      }
+      &.verfiy {
+        &::before {
+          background-color: rgb(43, 255, 0);
+          right: 2px;
+        }
+      }
+    }
+  }
+}
+>>>>>>> bde3f393739ebfabef23ae5ddd272587ea8d00a8

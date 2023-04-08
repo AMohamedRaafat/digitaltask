@@ -8,7 +8,11 @@
   transition: right 1s;
   position: fixed;
 }
+<<<<<<< HEAD
 @media (min-width: 250px) and (max-width: 1200px) {
+=======
+@media (min-width: 250px) and (max-width: 768px) {
+>>>>>>> bde3f393739ebfabef23ae5ddd272587ea8d00a8
   .SideBar {
     right: -100%;
   }
@@ -17,7 +21,11 @@
   width: 100%;
   text-align: left;
 }
+<<<<<<< HEAD
 @media (min-width: 1200px) {
+=======
+@media (min-width: 768px) {
+>>>>>>> bde3f393739ebfabef23ae5ddd272587ea8d00a8
   .SideBar .close {
     display: none;
   }
