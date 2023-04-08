@@ -1,0 +1,92 @@
+.percent {
+  font-family: sans-serif, "Cairo";
+  letter-spacing: 1px;
+}
+.percent .row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.percent .row .data {
+  width: 45%;
+  height: 500px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  margin: 15px 0;
+}
+@media (max-width: 768px) {
+  .percent .row .data {
+    margin-right: 0%;
+    width: 100%;
+  }
+}
+@media (max-width: 498px) {
+  .percent .row .data {
+    margin-right: 0%;
+    width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .percent .row .data {
+    margin-right: 0%;
+    width: 100%;
+  }
+}
+.percent .row .data h3 {
+  font-family: sans-serif, "Cairo";
+  font-weight: bold;
+  color: #333;
+}
+.percent .row .data .chart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.percent .row .data .chart div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.percent .row .data .chart div span {
+  font-family: sans-serif, "Cairo";
+  font-weight: bold;
+  color: #aaa9a9;
+}
+.percent .row .data .chart div svg {
+  width: 150px;
+  height: 300px;
+}
+.percent .row .data .chart div h3 {
+  color: #333;
+}
+.percent .row .divider {
+  width: 2px;
+  height: 300px;
+  background-color: #ccc;
+  border-radius: 20px;
+}
+@media (max-width: 768px) {
+  .percent .row .divider {
+    width: 300px;
+    margin: 15px auto;
+    height: 2px;
+  }
+}
+.percent .row .dead {
+  width: 45%;
+  border: 1px solid #ccc;
+  height: 500px;
+  background-color: #fff;
+  margin: 15px 0;
+  border-radius: 40px;
+}
+@media (max-width: 768px) {
+  .percent .row .dead {
+    width: 100%;
+  }
+}/*# sourceMappingURL=Percent.module.css.map */

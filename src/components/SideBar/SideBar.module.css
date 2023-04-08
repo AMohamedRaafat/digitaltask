@@ -1,0 +1,59 @@
+.SideBar {
+  width: 300px;
+  padding: 10px 25px;
+  box-sizing: border-box;
+  margin-top: 0px;
+  height: 85.5vh;
+  background-color: white;
+  transition: right 1s;
+  position: fixed;
+}
+@media (min-width: 250px) and (max-width: 1200px) {
+  .SideBar {
+    right: -100%;
+  }
+}
+.SideBar .close {
+  width: 100%;
+  text-align: left;
+}
+@media (min-width: 1200px) {
+  .SideBar .close {
+    display: none;
+  }
+}
+.SideBar .close svg {
+  font-size: 20px;
+  cursor: pointer;
+  padding: 5px;
+  color: #333;
+  border-radius: 5px;
+}
+.SideBar .dropdown .dropdownHead {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: sans-serif, "Cairo";
+  letter-spacing: 1px;
+  position: relative;
+}
+.SideBar .dropdown .dropdownHead::before {
+  content: "";
+  position: absolute;
+  right: -18px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 3px solid rgb(7, 216, 7);
+}
+.SideBar .dropdown .dropdownBody {
+  cursor: pointer;
+  padding: 0 10px;
+  font-family: sans-serif, "Cairo";
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-align: right;
+  color: #525252;
+  font-weight: normal;
+}/*# sourceMappingURL=SideBar.module.css.map */

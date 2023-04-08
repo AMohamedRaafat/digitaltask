@@ -1,0 +1,137 @@
+.Header {
+  padding: 10px 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+@media (max-width: 768px) {
+  .Header {
+    margin-right: 0%;
+  }
+}
+@media (max-width: 498px) {
+  .Header {
+    margin-right: 0%;
+    width: 99%;
+  }
+}
+@media (max-width: 400px) {
+  .Header {
+    margin-right: 0%;
+    width: 100%;
+  }
+}
+.Header .Header__logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin: 20px 0;
+}
+.Header .Header__logo .logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+.Header .Header__logo .logo img {
+  width: 100px;
+}
+.Header .Header__logo .logo .divider {
+  width: 3px;
+  background-color: #ccc;
+  border-radius: 10px;
+  height: 100px;
+}
+.Header .Header__logo .title {
+  color: #333;
+  font-family: sans-serif, "Cairo";
+  letter-spacing: 1px;
+}
+.Header .Header__setting {
+  display: flex;
+  margin: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
+@media (max-width: 769px) {
+  .Header .Header__setting {
+    margin: 20px 0;
+    margin-right: 25px;
+    width: 100%;
+  }
+}
+.Header .Header__setting .search {
+  width: 370px;
+}
+@media (min-width: 400px) and (max-width: 498px) {
+  .Header .Header__setting .search {
+    margin-right: 0%;
+    width: 80%;
+  }
+}
+@media (max-width: 400px) {
+  .Header .Header__setting .search {
+    margin-right: 0%;
+    width: 100%;
+  }
+}
+.Header .Header__setting button {
+  all: unset;
+  cursor: pointer;
+  color: #818181;
+  letter-spacing: 1px;
+  font-family: sans-serif, "Cairo";
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.Header .Header__setting form {
+  display: flex;
+  gap: 20px;
+}
+.Header .Header__setting form input {
+  all: unset;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+  padding: 10px;
+  font-family: sans-serif, "Cairo";
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-align: right;
+}
+@media (max-width: 498px) {
+  .Header .Header__setting form input {
+    margin-right: 0%;
+    width: 50%;
+  }
+}
+.Header .Header__setting form button {
+  cursor: pointer;
+  padding: 5px 20px;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  text-align: center !important;
+}
+.Header .Header__setting svg {
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.Header .Header__setting svg.settingSvg {
+  font-size: 40px;
+}
+@media (max-width: 498px) {
+  .Header .Header__setting svg.settingSvg {
+    margin-right: 0%;
+    font-size: 30px;
+  }
+}/*# sourceMappingURL=header.module.css.map */

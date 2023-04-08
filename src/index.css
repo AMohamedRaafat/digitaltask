@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f3f6f9;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+:where(.css-dev-only-do-not-override-1vtf12y).ant-picker {
+  padding: 10px 12px 10px;
+}
+.tabs div.active {
+  background-color: #e9f2ff !important;
+}
+.showbar {
+  right: 0 !important;
+  z-index: 999;
+  
+}
+@media (max-width: 768px) {
+ .showbar {
+  position: fixed;
+  top: 10px;
+  height: 99%;
+}
+}
+@media (max-width: 489px) {
+  .showbar {
+   right: -35px !important;
+   position: fixed;
+   top: 10px;
+   height: 99%;
+  }
+}
+@media (max-width: 375px) {
+  .showbar {
+   right: -40px !important;
+   position: fixed;
+   top: 50px;
+   height: 99%;
+  }
+}
