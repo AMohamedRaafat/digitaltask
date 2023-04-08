@@ -29,11 +29,7 @@
     width: 100%;
   }
 }
-<<<<<<< HEAD
 @media (max-width: 400px) {
-=======
-@media (max-width: 375px) {
->>>>>>> bde3f393739ebfabef23ae5ddd272587ea8d00a8
   .percent .row .data {
     margin-right: 0%;
     width: 100%;

@@ -1,11 +1,6 @@
 {
-<<<<<<< HEAD
   "short_name": "Born Statistics",
   "name": "Sample for Statistics about born and deaths numbers",
-=======
-  "short_name": "React App",
-  "name": "Create React App Sample",
->>>>>>> bde3f393739ebfabef23ae5ddd272587ea8d00a8
   "icons": [
     {
       "src": "favicon.ico",
@@ -13,20 +8,12 @@
       "type": "image/x-icon"
     },
     {
-<<<<<<< HEAD
       "src": "logo1.png",
-=======
-      "src": "logo192.png",
->>>>>>> bde3f393739ebfabef23ae5ddd272587ea8d00a8
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-<<<<<<< HEAD
       "src": "logo2.png",
-=======
-      "src": "logo512.png",
->>>>>>> bde3f393739ebfabef23ae5ddd272587ea8d00a8
       "type": "image/png",
       "sizes": "512x512"
     }

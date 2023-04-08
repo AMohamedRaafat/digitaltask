@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .main {
   padding: 20px;
   margin-right: 20%;
@@ -31,27 +30,3 @@
     flex-wrap: wrap;
   }
 }
-=======
-.main {
-  padding: 20px;
-  margin-right: 20%;
-  width: 75%;
-  @media (max-width: 768px) {
-    margin-right: 0%;
-    width: 90%;
-  }
-  @media (max-width: 498px) {
-    margin-right: 0%;
-    width: 100%;
-  }
-  @media (max-width: 375px) {
-    margin-right: 0%;
-    width: 100%;
-  }
-  .date {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-  }
-}
->>>>>>> bde3f393739ebfabef23ae5ddd272587ea8d00a8

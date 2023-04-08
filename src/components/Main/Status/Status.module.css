@@ -26,11 +26,7 @@
     flex-direction: column;
   }
 }
-<<<<<<< HEAD
 @media (max-width: 400px) {
-=======
-@media (max-width: 375px) {
->>>>>>> bde3f393739ebfabef23ae5ddd272587ea8d00a8
   .status .row {
     gap: 0%;
     width: 100%;
